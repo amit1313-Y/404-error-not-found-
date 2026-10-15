@@ -441,8 +441,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-[11px]">
-            <p>© 2026 Galgotias University · Section 30 · Team 404 ERROR NOT FOUND · 3rd Semester Academic Project Portal</p>
+          <div className="flex flex-col sm:flex-row items-center justify-end gap-4 text-slate-500 text-[11px]">
             <div className="flex items-center gap-4">
               <span>Official Team: <strong className="text-amber-400 font-mono tracking-wider">{team.teamName}</strong></span>
               <span>·</span>

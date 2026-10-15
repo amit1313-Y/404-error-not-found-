@@ -194,15 +194,6 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
 
         <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div>
-            <div className="inline-flex items-center gap-2 bg-white/5 border border-amber-500/30 px-3 py-1 rounded-full text-[11px] mb-3">
-              <GraduationCap className="w-3.5 h-3.5 text-amber-400" />
-              <span className="text-amber-300 font-semibold uppercase tracking-wider">Galgotias University</span>
-              <span className="text-slate-500" aria-hidden="true">·</span>
-              <span className="text-slate-200">Section 30</span>
-              <span className="text-slate-500" aria-hidden="true">·</span>
-              <span className="text-slate-300">3rd Semester Academic Project Portal</span>
-            </div>
-
             <h2 className="text-2xl sm:text-3xl font-serif font-semibold tracking-tight">
               Front Desk & Property Management Console
             </h2>
